@@ -3,12 +3,5 @@
 ### netboot.xyz-custom menu
 ###
 
-chain https://boot.alpinelinux.org/boot.ipxe 
+chain http://34.79.243.239:8080
 
-#:start
-#echo Hello world!
-#sleep 10
-#goto custom_exit
-
-#:custom_exit
-#exit 0
